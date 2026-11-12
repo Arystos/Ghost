@@ -11,8 +11,7 @@ public class Ghost : ModuleRules
             "Core",
             "CoreUObject",
             "Engine",
-            "UMG",
-            "BlueprintGraph"
+            "UMG"
         });
 
         PrivateDependencyModuleNames.AddRange(new[] { "Projects" });
